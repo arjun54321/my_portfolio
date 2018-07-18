@@ -1,0 +1,15 @@
+<?php
+error_reporting(1);
+$server="localhost";
+$user="root";
+$dbname="portfolio";
+$password="";
+$con=mysqli_connect($server,$user,$password,$dbname);
+if($con)
+{
+	 echo"";
+}
+else
+{
+	die(mysqli_connect_error());
+}
